@@ -12,7 +12,7 @@ export class List{
     }
 
     renderNumber(val){
-        if (val!==generatedNumber){
+        if (val!=generatedNumber){
             console.log(generatedNumber)
             return "yanlisss"
         }
