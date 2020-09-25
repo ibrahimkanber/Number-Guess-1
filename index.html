@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-<div id="root">
-    <button id="check">check</button>
-    <input type="number" id="input">
-</div>
+    <div class="container">
+        <div class="wrong"></div>
+       <div class="small-container">
+            <input type="number" class="numberEntry" maxlength="2" autofocus>
+            <button class="check">Check</button>
+       </div>
+        <div class="notifications"></div>
+    </div>
+<div class="endOfGame">
+    <div class="scores">
+        <div class="results"></div>
+        <button class="playAgain">Again</button>
+        
+    </div>
 
-<script type="module" src="./src/init.js"></script>
+
+    
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
