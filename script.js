@@ -1,7 +1,7 @@
 const numberEntry=document.querySelector(".numberEntry");
 const checkButtton=document.querySelector(".check");
 const notifications=document.querySelector(".notifications")
-const generatedNumber=Math.round(Math.random()*20);
+const generatedNumber=Math.round(Math.random()*15);
 const wrong=document.querySelector(".wrong");
 const scores=document.querySelector(".scores");
 const endOfGame=document.querySelector(".endOfGame");
